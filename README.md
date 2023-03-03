@@ -19,15 +19,18 @@ of each module for the kafka configurations
 
 - Click on the 'Clone or download' button and select 'Download Zip.'
 - At the root of the project, Build the project with Maven: `mvn clean install`
+
 - Start the Kafka producer module:
 ``` 
 cd kafka-producer-api
 mvn spring-boot:run
-- ```
+```
+
 - Start the Kafka consumer module:
 ``` 
 cd ../kafka-consumer-api
 mvn spring-boot:run
-- ```
+```
+
 - Open your web browser and go to http://localhost:8081/stream to see the real-time data streaming.
 
