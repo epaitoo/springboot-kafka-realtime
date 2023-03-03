@@ -22,6 +22,7 @@ public class ApiRealTImeChangesProducer {
         this.kafkaTemplate = kafkaTemplate;
     }
 
+
     public void sendMessage() throws InterruptedException {
         String topic = "wikimedia-stream-api";
 
